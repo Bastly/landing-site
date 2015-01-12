@@ -1,0 +1,174 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-webapp' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'generator-webapp', null ]
+6 verbose cache add name=undefined spec="generator-webapp" args=["generator-webapp",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'generator-webapp',
+7 verbose parsed url   path: 'generator-webapp',
+7 verbose parsed url   href: 'generator-webapp' }
+8 silly lockFile 3c53199c-generator-webapp generator-webapp
+9 verbose lock generator-webapp /home/goofyahead/.npm/3c53199c-generator-webapp.lock
+10 silly lockFile 3c53199c-generator-webapp generator-webapp
+11 silly lockFile 3c53199c-generator-webapp generator-webapp
+12 verbose addNamed [ 'generator-webapp', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile e02d5f55-generator-webapp generator-webapp@
+15 verbose lock generator-webapp@ /home/goofyahead/.npm/e02d5f55-generator-webapp.lock
+16 silly addNameRange { name: 'generator-webapp', range: '*', hasData: false }
+17 verbose request where is /generator-webapp
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id d0c0a04acfb4df50
+20 verbose url raw /generator-webapp
+21 verbose url resolving [ 'https://registry.npmjs.org/', './generator-webapp' ]
+22 verbose url resolved https://registry.npmjs.org/generator-webapp
+23 verbose request where is https://registry.npmjs.org/generator-webapp
+24 info trying registry request attempt 1 at 15:24:57
+25 http GET https://registry.npmjs.org/generator-webapp
+26 http 200 https://registry.npmjs.org/generator-webapp
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Mon, 12 Jan 2015 14:24:58 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"B4I6RCKBBML48QQKY4K9GLA7Z"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '46565',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '16',
+27 silly registry.get     'x-served-by': 'cache-ams4132-AMS',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1421072698.203713,VS0,VE0',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'generator-webapp', range: '*', hasData: true }
+29 silly addNameRange versions [ 'generator-webapp',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.1.3',
+29 silly addNameRange     '0.1.4',
+29 silly addNameRange     '0.1.5',
+29 silly addNameRange     '0.1.6',
+29 silly addNameRange     '0.1.7',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.2.4',
+29 silly addNameRange     '0.2.5',
+29 silly addNameRange     '0.2.6',
+29 silly addNameRange     '0.2.7',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.4.2',
+29 silly addNameRange     '0.4.3',
+29 silly addNameRange     '0.4.4',
+29 silly addNameRange     '0.4.5',
+29 silly addNameRange     '0.4.6',
+29 silly addNameRange     '0.4.7',
+29 silly addNameRange     '0.4.8',
+29 silly addNameRange     '0.4.9',
+29 silly addNameRange     '0.5.0-1',
+29 silly addNameRange     '0.5.0-rc.1',
+29 silly addNameRange     '0.5.0-2',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1' ] ]
+30 verbose addNamed [ 'generator-webapp', '0.5.1' ]
+31 verbose addNamed [ '0.5.1', '0.5.1' ]
+32 silly lockFile c7c60681-generator-webapp-0-5-1 generator-webapp@0.5.1
+33 verbose lock generator-webapp@0.5.1 /home/goofyahead/.npm/c7c60681-generator-webapp-0-5-1.lock
+34 silly lockFile c7c60681-generator-webapp-0-5-1 generator-webapp@0.5.1
+35 silly lockFile c7c60681-generator-webapp-0-5-1 generator-webapp@0.5.1
+36 silly lockFile e02d5f55-generator-webapp generator-webapp@
+37 silly lockFile e02d5f55-generator-webapp generator-webapp@
+38 silly resolved [ { name: 'generator-webapp',
+38 silly resolved     version: '0.5.1',
+38 silly resolved     description: 'Scaffold out a front-end web app',
+38 silly resolved     license: 'BSD',
+38 silly resolved     repository:
+38 silly resolved      { type: 'git',
+38 silly resolved        url: 'https://github.com/yeoman/generator-webapp' },
+38 silly resolved     author: { name: 'The Yeoman Team' },
+38 silly resolved     main: 'app/index.js',
+38 silly resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+38 silly resolved     scripts: { test: 'mocha --reporter spec' },
+38 silly resolved     files: [ 'app' ],
+38 silly resolved     keywords:
+38 silly resolved      [ 'yeoman-generator',
+38 silly resolved        'web',
+38 silly resolved        'app',
+38 silly resolved        'front-end',
+38 silly resolved        'h5bp',
+38 silly resolved        'modernizr',
+38 silly resolved        'jquery',
+38 silly resolved        'grunt' ],
+38 silly resolved     dependencies:
+38 silly resolved      { chalk: '^0.5.1',
+38 silly resolved        cheerio: '^0.17.0',
+38 silly resolved        'yeoman-generator': '~0.17.3',
+38 silly resolved        yosay: '~1.0.0' },
+38 silly resolved     devDependencies: { mocha: '*', underscore: '^1.6.0' },
+38 silly resolved     peerDependencies: { yo: '>=1.2.0', 'generator-mocha': '>=0.1.0' },
+38 silly resolved     readme: '# Web app generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-webapp.svg?branch=master)](http://travis-ci.org/yeoman/generator-webapp)\n\n[Yeoman](http://yeoman.io) generator that scaffolds out a front-end web app.\n\n![](http://i.imgur.com/uKTT2Hj.png)\n\n## Features\n\n* CSS Autoprefixing\n* Built-in preview server with LiveReload\n* Automagically compile CoffeeScript & Sass\n* Automagically lint your scripts\n* Automagically wire up your Bower components with [grunt-wiredep](#third-party-dependencies).\n* Awesome Image Optimization (via OptiPNG, pngquant, jpegtran and gifsicle)\n* Mocha Unit Testing with PhantomJS\n* Bootstrap for Sass (Optional)\n* Leaner Modernizr builds (Optional)\n\nFor more information on what `generator-webapp` can do for you, take a look at the [Grunt tasks](https://github.com/yeoman/generator-webapp/blob/master/app/templates/_package.json) used in our `package.json`.\n\n\n## Getting Started\n\n- Install: `npm install -g generator-webapp`\n- Run: `yo webapp`\n- Run `grunt` for building and `grunt serve` for preview[\\*](#grunt-serve-note). `--allow-remote` option for remote access.\n\n\n#### Third-Party Dependencies\n\n*(HTML/CSS/JS/Images/etc)*\n\nThird-party dependencies are managed with [grunt-wiredep](https://github.com/stephenplusplus/grunt-wiredep). Add new dependencies using **Bower** and then run the **Grunt** task to load them:\n\n```sh\n$ bower install --save jquery\n$ grunt wiredep\n```\n\nThis works if the package author has followed the [Bower spec](https://github.com/bower/bower.json-spec). If the files are not automatically added to your source code, check with the package\'s repo for support and/or file an issue with them to have it updated.\n\nTo manually add dependencies, `bower install --save depName` to get the files, then add a `script` or `style` tag to your `index.html` or another appropriate place.\n\nThe components are installed in the root of the project at `/bower_components`. To reference them from index.html, use `src="bower_components"` or `src="/bower_components"`. Treat the `bower_components` directory as if it was a sibling to `index.html`.\n\n*Testing Note*: a project checked into source control and later checked out needs to have `bower install` run from the `test` folder as well as from the project root.\n\n\n#### Grunt Serve Note\n\nNote: `grunt server` was used for previewing in earlier versions of the project, and has since been deprecated in favor of `grunt serve`.\n\n\n## Docs\n\nWe have [recipes](docs/recipes) for integrating other popular technologies like Compass.\n\n\n## Options\n\n* `--skip-install`\n\n  Skips the automatic execution of `bower` and `npm` after scaffolding has finished.\n\n* `--test-framework=<framework>`\n\n  Defaults to `mocha`. Can be switched for another supported testing framework like `jasmine`.\n\n* `--coffee`\n\n  Add support for [CoffeeScript](http://coffeescript.org/).\n\n\n## Contribute\n\nSee the [contributing docs](https://github.com/yeoman/yeoman/blob/master/contributing.md).\n\nNote: We are regularly asked whether we can add or take away features. If a change is good enough to have a positive impact on all users, we are happy to consider it.\n\nIf not, `generator-webapp` is fork-friendly and you can always maintain a custom version which you `npm install && npm link` to continue using via `yo webapp` or a name of your choosing.\n\n\n## License\n\n[BSD license](http://opensource.org/licenses/bsd-license.php)\n',
+38 silly resolved     readmeFilename: 'readme.md',
+38 silly resolved     bugs: { url: 'https://github.com/yeoman/generator-webapp/issues' },
+38 silly resolved     homepage: 'https://github.com/yeoman/generator-webapp',
+38 silly resolved     _id: 'generator-webapp@0.5.1',
+38 silly resolved     _from: 'generator-webapp@' } ]
+39 info install generator-webapp@0.5.1 into /usr/lib
+40 info installOne generator-webapp@0.5.1
+41 verbose lib/node_modules/generator-webapp unbuild
+42 verbose tar unpack /home/goofyahead/.npm/generator-webapp/0.5.1/package.tgz
+43 silly lockFile 94b7d171-ib-node-modules-generator-webapp tar:///usr/lib/node_modules/generator-webapp
+44 verbose lock tar:///usr/lib/node_modules/generator-webapp /home/goofyahead/.npm/94b7d171-ib-node-modules-generator-webapp.lock
+45 silly lockFile 7b221606-nerator-webapp-0-5-1-package-tgz tar:///home/goofyahead/.npm/generator-webapp/0.5.1/package.tgz
+46 verbose lock tar:///home/goofyahead/.npm/generator-webapp/0.5.1/package.tgz /home/goofyahead/.npm/7b221606-nerator-webapp-0-5-1-package-tgz.lock
+47 silly gunzTarPerm modes [ '775', '664' ]
+48 error Error: EACCES, mkdir '/usr/lib/node_modules/generator-webapp'
+48 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/generator-webapp']
+48 error   errno: 3,
+48 error   code: 'EACCES',
+48 error   path: '/usr/lib/node_modules/generator-webapp',
+48 error   fstream_type: 'Directory',
+48 error   fstream_path: '/usr/lib/node_modules/generator-webapp',
+48 error   fstream_class: 'DirWriter',
+48 error   fstream_stack:
+48 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+48 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+48 error      'Object.oncomplete (fs.js:108:15)' ] }
+49 error Please try running this command again as root/Administrator.
+50 error System Linux 3.13.0-43-generic
+51 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "generator-webapp"
+52 error cwd /home/goofyahead/github/landing-test
+53 error node -v v0.10.35
+54 error npm -v 1.4.28
+55 error path /usr/lib/node_modules/generator-webapp
+56 error fstream_path /usr/lib/node_modules/generator-webapp
+57 error fstream_type Directory
+58 error fstream_class DirWriter
+59 error code EACCES
+60 error errno 3
+61 error stack Error: EACCES, mkdir '/usr/lib/node_modules/generator-webapp'
+62 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+62 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+62 error fstream_stack Object.oncomplete (fs.js:108:15)
+63 verbose exit [ 3, true ]
